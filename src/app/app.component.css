@@ -1,0 +1,30 @@
+.mat-toolbar {
+    width: 100%;
+    margin-left: 0;
+}
+
+#sidelink {
+    width: 100%;
+    height: 50px;
+}
+
+#hamburger {
+    height: 50px;
+    border-radius: 15px;
+}
+
+button {
+    border-radius: 0px;
+}
+
+mat-sidenav-container {
+    height: 100%;
+}
+
+mat-sidenav, mat-sidenav-content {
+    padding-left: 0px;
+}
+
+mat-sidenav {
+    width: 200px;
+}

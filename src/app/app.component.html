@@ -1,0 +1,27 @@
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav color="primary">
+    <!--Sidenav Content -->
+    <div>
+    <button mat-raised-button (click)="sidenav.close()" color="primary" style="float: right;"><mat-icon>clear</mat-icon></button>
+    </div>
+
+
+    <div class="container">
+      <button id="sidelink" mat-raised-button color="accent">Basic</button>
+      <button id="sidelink" mat-raised-button color="accent">Primary</button>
+      <button id="sidelink" mat-raised-button color="accent">Accent</button>
+      <button id="sidelink" mat-raised-button color="accent">Warn</button>
+      <button id="sidelink" mat-raised-button disabled>Contact Us</button>
+    </div>
+  </mat-sidenav> <!-- 3 possible modes are over, push, or side -->
+  <mat-sidenav-content>
+
+    <mat-toolbar color="primary">
+    <button id="hamburger" mat-raised-button color="accent" (click)="sidenav.toggle()"><mat-icon>reorder</mat-icon></button>
+    <div style="text-align: center; padding: 5px">Tŝilhqot'in Dictionary</div>
+    <button mat-raised-button color="accent"><mat-icon>smoking_rooms</mat-icon></button>
+    </mat-toolbar>
+    
+  </mat-sidenav-content>
+</mat-sidenav-container>
